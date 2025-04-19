@@ -1,0 +1,805 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Hind Mysuru", sans-serif;
+}
+#main {
+  background-image: url("./assests/hero-banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  z-index: 0;
+}
+
+/* navbar starts here ...............*/
+
+#navbar {
+  height: 70px;
+  font-family: "gentonabook";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul li {
+  font-size: 14px;
+  font-weight: 600;
+}
+#navbar h1 img {
+  width: 50px;
+  height: 25px;
+}
+
+#navbar ul li #btn1 {
+  background-color: rgb(52, 49, 49);
+  width: 124px;
+  height: 40px;
+  border: none;
+  color: white;
+}
+
+#navbar ul li #btn2 {
+  background-color: #fff;
+  width: 124px;
+  height: 40px;
+  border: none;
+  color: black;
+}
+
+#navbar ul li i {
+  font-size: 25px;
+}
+/* navbar ends here ...............*/
+
+/* section1 starts here ...............*/
+#section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  z-index: 0;
+}
+
+#section1 aside {
+  width: 68%;
+}
+#section1 h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 546;
+}
+
+#section1 aside #btn {
+  width: 40%;
+  background-color: white;
+}
+#btn #btn1 {
+  width: 70px;
+  height: 40px;
+  margin-left: 25px;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid;
+  font-weight: 600;
+}
+
+#btn #btn2 {
+  margin-left: 15px;
+  background-color: white;
+  border: none;
+  font-weight: 600;
+}
+
+#btn #btn3 {
+  margin-left: 35px;
+  background-color: white;
+  border: none;
+  font-weight: 600;
+}
+
+#location {
+  height: 90px;
+
+  background-color: #f2f4f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#location input {
+  width: 220px;
+  height: 53px;
+}
+
+#location input::placeholder {
+  font-size: 15px;
+  color: black;
+  font-weight: 540;
+  padding-left: 50px;
+}
+#location #icon1 {
+  position: absolute;
+  left: 248px;
+  font-size: 10px;
+}
+#location #icon2 {
+  position: absolute;
+  left: 410px;
+  font-size: 20px;
+}
+
+#location #icon3 {
+  position: absolute;
+  left: 518px;
+  font-size: 10px;
+}
+
+#location #line1 {
+  border-bottom: 1px solid;
+  width: 50px;
+  position: absolute;
+  right: 767px;
+}
+
+#location #btn4 {
+  background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg)
+      no-repeat bottom,
+    radial-gradient(
+      127.68% 2996.56% at 12.65% 127.68%,
+      #000000 0%,
+      #222222 100%
+    );
+  color: white;
+  width: 270px;
+  height: 53px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#location #btn4 {
+  font-weight: 600;
+}
+
+.cabs {
+  color: #3cef83;
+}
+/* section1 ends here ...............*/
+
+/* section2 starts here ...............*/
+
+#section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section2 #banner {
+  width: 68%;
+}
+
+#section2 #banner img {
+  width: 100%;
+}
+/* section2 ends here ...............*/
+
+/* section3 starts here ...............*/
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.section3 #heading {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 #heading h1 {
+  font-size: 42px;
+  text-align: center;
+}
+.section3 section {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 95px;
+}
+
+.section3 section img {
+  width: 160px;
+  padding-left: 20px;
+}
+
+#d2 {
+  margin-left: 24px;
+}
+
+#d3 {
+  margin-left: 20px;
+}
+
+.section3 section #d1 h1 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 section #d2 h1 {
+  font-size: 35px;
+  padding-left: 33px;
+}
+
+.section3 section #d3 h1 {
+  font-size: 35px;
+  padding-left: 33px;
+}
+
+.section3 section #d1 h3 {
+  font-size: 24px;
+  width: 170px;
+}
+
+.section3 section #d2 h3 {
+  font-size: 24px;
+  padding-left: 15px;
+}
+.section3 section #d2 p {
+  padding-left: 15px;
+  text-align: center;
+}
+.section3 section #d3 h3 {
+  font-size: 24px;
+  width: 210px;
+}
+.section3 section p {
+  font-size: 14px;
+}
+
+/* section3 ends here ...............*/
+
+/* section4 starts here ...............*/
+#section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section4 section {
+  width: 68%;
+
+  font-family: "gentonabook";
+}
+
+#section4 section h1 {
+  font-size: 40px;
+}
+
+#section4 #card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section4 #card img {
+  width: 270px;
+  height: 270px;
+}
+
+#section4 #card p {
+  width: 270px;
+  height: 100px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #666666;
+  font-weight: 540;
+}
+/* section4 ends here ...............*/
+
+/* section5 starts here ...............*/
+#section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section5 section {
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "gentonabook";
+}
+
+#section5 section video {
+  width: 500px;
+  height: 650px;
+}
+
+#section5 section div {
+  width: 300px;
+}
+
+#section5 div p {
+  padding-left: 30px;
+}
+
+#section5 div h3 {
+  padding-left: 30px;
+}
+
+#section5 section div h1 {
+  font-size: 45px;
+  font-family: "gentonamedium";
+}
+
+#section5 section div p {
+  width: 300px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+#section5 section #line1 {
+  border-left: 3px solid red;
+  height: 138px;
+  position: absolute;
+}
+
+#section5 section #line2 {
+  border-left: 3px solid red;
+  height: 138px;
+  position: absolute;
+}
+
+/* section5 ends here ...............*/
+
+/* section6 starts here ...............*/
+#section6 {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f6e9;
+  transform: skewY(-2deg);
+}
+
+#section6 section {
+  width: 68%;
+}
+
+#section6 #sec1 {
+  width: 100%;
+  transform: skewY(2deg);
+}
+
+#section6 #sec1 aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#section6 #sec1 h1 {
+  font-size: 40px;
+  width: 400px;
+}
+
+#section6 #sec1 aside #bx1 {
+  width: 400px;
+}
+
+#section6 #sec1 aside img {
+  width: 400px;
+  height: 250px;
+}
+
+#section6 #sec1 aside #bx1 h3 {
+  width: 250px;
+  font-size: 21px;
+  line-height: 40px;
+}
+
+#section6 #sec1 aside #xyz {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+#section6 #sec1 aside #xyz div {
+  background-color: #daeed9;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section6 #sec1 aside #xyz #p2 {
+  color: #3cef83;
+}
+#section6 #sec1 article {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section6 #sec1 article img {
+  width: 60px;
+  height: 60px;
+}
+
+#section6 #sec1 article p {
+  width: 80px;
+  font-size: 12px;
+}
+
+#section6 #sec2 {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: skewY(2deg);
+}
+
+#section6 #sec2 h3 {
+  width: 300px;
+  font-size: 20px;
+}
+
+#section6 #sec2 button {
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #f1f6e9;
+  color: #16aa51;
+  border: none;
+}
+#sec2 aside {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sec2 aside img {
+  width: 150px;
+  height: 150px;
+}
+/* section6 ends here ...............*/
+
+/* section7 starts here ...............*/
+#section7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section7 section {
+  width: 68%;
+}
+
+#section7 section h1 {
+  font-size: 40px;
+}
+
+#section7 section .box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 17px;
+}
+
+#section7 section .box #box1 p {
+  width: 410px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #666666;
+}
+
+#section7 section .box #box2 p {
+  font-size: 16px;
+  color: #666666;
+  width: 140px;
+  line-height: 25px;
+}
+
+#section7 section .box #box3 p {
+  font-size: 16px;
+  color: #666666;
+  width: 200px;
+  line-height: 25px;
+  padding-left: 40px;
+}
+
+#section7 section .box #box3 h3 {
+  padding-left: 40px;
+}
+
+#section7 section .box #box4 img {
+  width: 410px;
+}
+
+#section7 section .box #box5 img {
+  width: 425px;
+  height: 428px;
+}
+
+#section7 section button {
+  font-size: 17px;
+  font-weight: 600;
+  color: #16aa51;
+  border: none;
+  background-color: white;
+}
+/* section7 ends here ...............*/
+
+/* section8 starts here ...............*/
+
+#section8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section8 section {
+  width: 68%;
+}
+
+#section8 section h1 {
+  font-size: 40px;
+  width: 400px;
+}
+#section8 section aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section8 aside #ondc {
+  float: left;
+  font-size: 20px;
+  color: black;
+  font-weight: 100;
+}
+#section8 aside h3 {
+  width: 250px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#section8 aside button {
+  font-size: 17px;
+  font-weight: 600;
+  background-color: white;
+  color: #16aa51;
+  border: none;
+}
+
+#section8 section article {
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section8 section article img {
+  width: 170px;
+  height: 230px;
+}
+
+#section8 section p {
+  font-size: 13px;
+  float: right;
+  color: #666666;
+}
+/* section8 ends here ...............*/
+
+/* section9 starts here ...............*/
+#section9 {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f4f0;
+  transform: skewY(-2deg);
+}
+
+#section9 section {
+  width: 68%;
+  transform: skewY(2deg);
+}
+
+#section9 section h1 {
+  font-size: 40px;
+}
+
+#section9 section aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section9 section aside img {
+  width: 270px;
+  height: 200px;
+}
+
+#section9 section aside button {
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #f2f4f0;
+  color: #16aa51;
+  border: none;
+}
+
+/* section9 ends here ...............*/
+
+/* section10 starts here ...............*/
+
+#section10 {
+  /* height: 700px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f2f4f0;
+  transform: skewY(-2deg); */
+}
+
+#section10 section {
+  width: 68%;
+}
+
+#section10 section h1 {
+  font-size: 40px;
+  width: 450px;
+}
+
+#section10 section aside {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 60px;
+}
+#section10 section aside div {
+  width: 285px;
+  height: 300px;
+  padding: 40px;
+  background-color: #e7ece0;
+}
+
+#section10 section aside div h3 img {
+  float: right;
+  width: 25px;
+}
+
+#section10 section aside div p {
+  width: 200px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#section10 section aside div #p2 {
+  width: 230px;
+}
+/* section10 ends here ...............*/
+
+/* section11 starts here ...............*/
+
+#section11 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: skewY(-2deg); */
+  background-color: #f2f4f6;
+  unicode-bidi: isolate;
+}
+
+#section11 section {
+  width: 75%;
+
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 50px;
+}
+
+#section11 section #d2 {
+  margin-left: 40px;
+}
+
+#section11 section div i {
+  font-size: 25px;
+}
+
+#section11 section div ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+/* section11 ends here ...............*/
+
+/* footer starts here ...............*/
+
+#footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f4f6;
+  border-top: 1px solid rgb(197, 195, 195);
+}
+
+#footer footer {
+  width: 75%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+#footer footer p {
+  font-size: 11px;
+  width: 37%;
+  color: rgb(159, 151, 151);
+}
+
+#footer footer ul {
+  /* width: 37%; */
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 40px;
+  font-size: 12px;
+}
+
+#footer footer ul li a {
+  color: rgb(159, 151, 151);
+}
+
+#footer footer ul li select {
+  border: none;
+  background-color: #f2f4f6;
+}
+/* footer ends here ...............*/
+
+button,
+li,
+a:hover {
+  cursor: pointer;
+}
